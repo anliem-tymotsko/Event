@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    list-style: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+}
+
+.container>.item {
+    padding: 100px;
+
+}

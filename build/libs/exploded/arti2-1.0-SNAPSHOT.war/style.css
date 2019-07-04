@@ -1,0 +1,116 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* zocial */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: rgba(255, 255, 255, .8);
+    margin-left: 10px;
+}
+label{
+    color: rgba(255, 255, 255, .8);
+    margin-left: 10px;
+}
+select {
+
+    border-radius: 7px;
+    border: 0px;
+    background: rgba(255, 255, 255, .2);
+    display: block;
+    margin: 15px;
+    width: 300px;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+}
+
+option {
+    border-radius: 7px;
+    border: 0px;
+    background: rgba(255, 255, 255, .2);
+    display: block;
+    margin: 11px;
+    width:50px;
+    color: black;
+    font-size: 14px;
+    height: 30px;
+}
+
+body {
+    background: #272125;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+form {
+    position: relative;
+    margin: 50px auto;
+    width: 300px;
+    height: auto;
+
+}
+
+input {
+    padding: 16px;
+    border-radius: 7px;
+    border: 0px;
+    background: rgba(255, 255, 255, .2);
+    display: block;
+    margin: 15px;
+    width: 300px;
+    color: white;
+    font-size: 13px;
+    height: 40px;
+}
+
+input:focus {
+    outline-color: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, .95);
+    color: #e74c3c;
+}
+
+button {
+    float: right;
+    height: 50px;
+    width: 60px;
+    border: 0px;
+    background: #e74c3c;
+    border-radius: 7px;
+    padding: 2px;
+    color: white;
+    font-size: 17px;
+}
+
+.inputUserIcon {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    color: white;
+}
+
+.inputPassIcon {
+    position: absolute;
+    top: 116px;
+    right: 80px;
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #e74c3c;
+}
